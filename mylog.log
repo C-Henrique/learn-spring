@@ -1,0 +1,168 @@
+2024-09-12T15:36:34.193-03:00  INFO 19392 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Starting SpringLearnJwtApplication using Java 17.0.11 with PID 19392 (C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt\target\classes started by camilo.henrique in C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt)
+2024-09-12T15:36:34.199-03:00  INFO 19392 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T15:36:36.578-03:00  INFO 19392 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T15:36:36.798-03:00  INFO 19392 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195 ms. Found 3 JPA repository interfaces.
+2024-09-12T15:36:38.569-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T15:36:38.598-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T15:36:38.600-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-12T15:36:38.751-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T15:36:38.753-03:00  INFO 19392 --- [spring-learn-jwt] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4459 ms
+2024-09-12T15:36:39.404-03:00  INFO 19392 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T15:36:40.057-03:00  INFO 19392 --- [spring-learn-jwt] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aeaff64
+2024-09-12T15:36:40.062-03:00  INFO 19392 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T15:36:40.159-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T15:36:40.331-03:00  INFO 19392 --- [spring-learn-jwt] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T15:36:40.429-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T15:36:41.228-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T15:36:42.990-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T15:36:42.995-03:00  INFO 19392 --- [spring-learn-jwt] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T15:36:43.787-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-12T15:36:44.492-03:00  WARN 19392 --- [spring-learn-jwt] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T15:36:45.989-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-09-12T15:36:46.178-03:00  INFO 19392 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T15:36:46.198-03:00  INFO 19392 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Started SpringLearnJwtApplication in 12.619 seconds (process running for 13.549)
+2024-09-12T15:36:48.614-03:00  INFO 19392 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T15:36:48.615-03:00  INFO 19392 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12T15:36:48.618-03:00  INFO 19392 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-12T15:38:42.453-03:00  INFO 2028 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Starting SpringLearnJwtApplication using Java 17.0.11 with PID 2028 (C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt\target\classes started by camilo.henrique in C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt)
+2024-09-12T15:38:42.461-03:00  INFO 2028 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T15:38:44.384-03:00  INFO 2028 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T15:38:44.576-03:00  INFO 2028 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144 ms. Found 3 JPA repository interfaces.
+2024-09-12T15:38:46.158-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T15:38:46.180-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T15:38:46.181-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-12T15:38:46.292-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T15:38:46.295-03:00  INFO 2028 --- [spring-learn-jwt] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3698 ms
+2024-09-12T15:38:46.876-03:00  INFO 2028 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T15:38:47.564-03:00  INFO 2028 --- [spring-learn-jwt] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ce7490a
+2024-09-12T15:38:47.570-03:00  INFO 2028 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T15:38:47.675-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T15:38:47.848-03:00  INFO 2028 --- [spring-learn-jwt] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T15:38:47.944-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T15:38:48.627-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T15:38:50.597-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T15:38:50.605-03:00  INFO 2028 --- [spring-learn-jwt] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T15:38:51.697-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-12T15:38:52.706-03:00  WARN 2028 --- [spring-learn-jwt] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T15:38:54.607-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-09-12T15:38:54.817-03:00  INFO 2028 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T15:38:54.849-03:00  INFO 2028 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Started SpringLearnJwtApplication in 13.074 seconds (process running for 14.01)
+2024-09-12T15:38:56.843-03:00  INFO 2028 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T15:38:56.844-03:00  INFO 2028 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12T15:38:56.847-03:00  INFO 2028 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-12T15:38:58.577-03:00  INFO 2028 --- [spring-learn-jwt] [http-nio-8080-exec-2] b.c.l.c.s.services.GetProductService     : Executando : class br.com.learn.chenrique.spring_learn_jwt.services.GetProductService. Input : 20
+2024-09-12T15:38:58.793-03:00 ERROR 2028 --- [spring-learn-jwt] [http-nio-8080-exec-2] b.c.l.c.s.e.ProductNotFoundException     : Erro : class br.com.learn.chenrique.spring_learn_jwt.exceptions.ProductNotFoundException : Produto não encotrado!
+2024-09-12T15:54:43.940-03:00  INFO 13808 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Starting SpringLearnJwtApplication using Java 17.0.11 with PID 13808 (C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt\target\classes started by camilo.henrique in C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt)
+2024-09-12T15:54:43.948-03:00  INFO 13808 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T15:54:46.065-03:00  INFO 13808 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T15:54:46.222-03:00  INFO 13808 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 3 JPA repository interfaces.
+2024-09-12T15:54:47.755-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T15:54:47.787-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T15:54:47.789-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-12T15:54:47.918-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T15:54:47.919-03:00  INFO 13808 --- [spring-learn-jwt] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3844 ms
+2024-09-12T15:54:48.525-03:00  INFO 13808 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T15:54:49.149-03:00  INFO 13808 --- [spring-learn-jwt] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15371de2
+2024-09-12T15:54:49.156-03:00  INFO 13808 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T15:54:49.235-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T15:54:49.373-03:00  INFO 13808 --- [spring-learn-jwt] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T15:54:49.464-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T15:54:50.023-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T15:54:52.474-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T15:54:52.480-03:00  INFO 13808 --- [spring-learn-jwt] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T15:54:53.592-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-12T15:54:54.947-03:00  WARN 13808 --- [spring-learn-jwt] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T15:54:57.223-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-09-12T15:54:57.493-03:00  INFO 13808 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T15:54:57.538-03:00  INFO 13808 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Started SpringLearnJwtApplication in 14.322 seconds (process running for 15.296)
+2024-09-12T15:54:58.205-03:00  INFO 13808 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T15:54:58.207-03:00  INFO 13808 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12T15:54:58.209-03:00  INFO 13808 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-12T15:54:59.764-03:00  INFO 13808 --- [spring-learn-jwt] [http-nio-8080-exec-2] b.c.l.c.s.services.GetProductService     : Executando : class br.com.learn.chenrique.spring_learn_jwt.services.GetProductService. Input : 2
+2024-09-12T15:55:00.032-03:00 ERROR 13808 --- [spring-learn-jwt] [http-nio-8080-exec-2] b.c.l.c.s.e.ProductNotFoundException     : Erro : class br.com.learn.chenrique.spring_learn_jwt.exceptions.ProductNotFoundException : Produto não encotrado!
+2024-09-12T15:55:03.816-03:00  INFO 13808 --- [spring-learn-jwt] [http-nio-8080-exec-9] b.c.l.c.s.services.GetProductService     : Executando : class br.com.learn.chenrique.spring_learn_jwt.services.GetProductService. Input : 2
+2024-09-12T15:55:03.834-03:00 ERROR 13808 --- [spring-learn-jwt] [http-nio-8080-exec-9] b.c.l.c.s.e.ProductNotFoundException     : Erro : class br.com.learn.chenrique.spring_learn_jwt.exceptions.ProductNotFoundException : Produto não encotrado!
+2024-09-12T15:55:06.331-03:00  INFO 13808 --- [spring-learn-jwt] [http-nio-8080-exec-3] b.c.l.c.s.services.GetProductService     : Executando : class br.com.learn.chenrique.spring_learn_jwt.services.GetProductService. Input : 1
+2024-09-12T15:55:06.351-03:00 ERROR 13808 --- [spring-learn-jwt] [http-nio-8080-exec-3] b.c.l.c.s.e.ProductNotFoundException     : Erro : class br.com.learn.chenrique.spring_learn_jwt.exceptions.ProductNotFoundException : Produto não encotrado!
+2024-09-12T15:55:24.663-03:00  INFO 13808 --- [spring-learn-jwt] [http-nio-8080-exec-8] b.c.l.c.s.services.GetProductService     : Executando : class br.com.learn.chenrique.spring_learn_jwt.services.GetProductService. Input : 3
+2024-09-12T15:59:11.777-03:00  INFO 15516 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Starting SpringLearnJwtApplication using Java 17.0.11 with PID 15516 (C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt\target\classes started by camilo.henrique in C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt)
+2024-09-12T15:59:11.784-03:00  INFO 15516 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T15:59:13.659-03:00  INFO 15516 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T15:59:13.803-03:00  INFO 15516 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 3 JPA repository interfaces.
+2024-09-12T15:59:15.341-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T15:59:15.364-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T15:59:15.365-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-12T15:59:15.484-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T15:59:15.486-03:00  INFO 15516 --- [spring-learn-jwt] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3563 ms
+2024-09-12T15:59:16.047-03:00  INFO 15516 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T15:59:16.651-03:00  INFO 15516 --- [spring-learn-jwt] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d685f4e
+2024-09-12T15:59:16.657-03:00  INFO 15516 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T15:59:16.743-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T15:59:16.870-03:00  INFO 15516 --- [spring-learn-jwt] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T15:59:16.964-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T15:59:17.594-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T15:59:19.261-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T15:59:19.267-03:00  INFO 15516 --- [spring-learn-jwt] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T15:59:20.016-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-12T15:59:20.765-03:00  WARN 15516 --- [spring-learn-jwt] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T15:59:22.105-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-09-12T15:59:22.323-03:00  INFO 15516 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T15:59:22.348-03:00  INFO 15516 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Started SpringLearnJwtApplication in 11.35 seconds (process running for 12.364)
+2024-09-12T15:59:22.945-03:00  INFO 15516 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T15:59:22.981-03:00  INFO 15516 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12T15:59:22.986-03:00  INFO 15516 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-09-12T15:59:24.758-03:00  INFO 15516 --- [spring-learn-jwt] [http-nio-8080-exec-5] b.c.l.c.s.services.GetProductService     : Executando : class br.com.learn.chenrique.spring_learn_jwt.services.GetProductService. Input : 3
+2024-09-12T15:59:49.150-03:00  INFO 15516 --- [spring-learn-jwt] [http-nio-8080-exec-8] b.c.l.c.s.services.GetProductService     : Executando : class br.com.learn.chenrique.spring_learn_jwt.services.GetProductService. Input : 3
+2024-09-12T16:01:01.269-03:00  INFO 4668 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Starting SpringLearnJwtApplication using Java 17.0.11 with PID 4668 (C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt\target\classes started by camilo.henrique in C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt)
+2024-09-12T16:01:01.276-03:00  INFO 4668 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T16:01:03.375-03:00  INFO 4668 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T16:01:03.590-03:00  INFO 4668 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 188 ms. Found 3 JPA repository interfaces.
+2024-09-12T16:01:05.152-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T16:01:05.168-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T16:01:05.168-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-12T16:01:05.294-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T16:01:05.294-03:00  INFO 4668 --- [spring-learn-jwt] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3896 ms
+2024-09-12T16:01:05.906-03:00  INFO 4668 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T16:01:06.606-03:00  INFO 4668 --- [spring-learn-jwt] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11cc9e1e
+2024-09-12T16:01:06.612-03:00  INFO 4668 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T16:01:06.689-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T16:01:06.882-03:00  INFO 4668 --- [spring-learn-jwt] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T16:01:06.976-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T16:01:07.677-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T16:01:09.354-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T16:01:09.374-03:00  INFO 4668 --- [spring-learn-jwt] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T16:01:10.164-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-12T16:01:10.961-03:00  WARN 4668 --- [spring-learn-jwt] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T16:01:12.586-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-09-12T16:01:12.623-03:00  INFO 4668 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T16:01:12.625-03:00  INFO 4668 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12T16:01:12.627-03:00  INFO 4668 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-12T16:01:12.776-03:00  INFO 4668 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T16:01:12.804-03:00  INFO 4668 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Started SpringLearnJwtApplication in 12.284 seconds (process running for 13.193)
+2024-09-12T16:01:17.804-03:00  INFO 4668 --- [spring-learn-jwt] [http-nio-8080-exec-2] b.c.l.c.s.services.GetProductService     : Executando : class br.com.learn.chenrique.spring_learn_jwt.services.GetProductService. Input : 3
+2024-09-12T16:08:03.637-03:00  INFO 10928 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Starting SpringLearnJwtApplication using Java 17.0.11 with PID 10928 (C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt\target\classes started by camilo.henrique in C:\Users\camilo.henrique\Documents\Dev\Estudos\spring-learn-jwt)
+2024-09-12T16:08:03.644-03:00  INFO 10928 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T16:08:05.601-03:00  INFO 10928 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T16:08:05.776-03:00  INFO 10928 --- [spring-learn-jwt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149 ms. Found 3 JPA repository interfaces.
+2024-09-12T16:08:07.311-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T16:08:07.333-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T16:08:07.334-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-12T16:08:07.443-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T16:08:07.445-03:00  INFO 10928 --- [spring-learn-jwt] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3694 ms
+2024-09-12T16:08:08.027-03:00  INFO 10928 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T16:08:08.642-03:00  INFO 10928 --- [spring-learn-jwt] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3220c28
+2024-09-12T16:08:08.646-03:00  INFO 10928 --- [spring-learn-jwt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T16:08:08.728-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T16:08:08.924-03:00  INFO 10928 --- [spring-learn-jwt] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-12T16:08:09.009-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T16:08:09.556-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T16:08:11.116-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T16:08:11.121-03:00  INFO 10928 --- [spring-learn-jwt] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T16:08:11.910-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-12T16:08:12.666-03:00  WARN 10928 --- [spring-learn-jwt] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T16:08:14.145-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-09-12T16:08:14.328-03:00  INFO 10928 --- [spring-learn-jwt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T16:08:14.358-03:00  INFO 10928 --- [spring-learn-jwt] [main] b.c.l.c.s.SpringLearnJwtApplication      : Started SpringLearnJwtApplication in 11.405 seconds (process running for 12.404)
+2024-09-12T16:08:14.874-03:00  INFO 10928 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T16:08:14.875-03:00  INFO 10928 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-12T16:08:14.878-03:00  INFO 10928 --- [spring-learn-jwt] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

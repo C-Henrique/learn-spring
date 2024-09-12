@@ -2,6 +2,7 @@ package br.com.learn.chenrique.spring_learn_jwt.services;
 
 import java.util.Optional;
 
+import org.springframework.cache.annotation.CachePut;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -20,6 +21,7 @@ public class UpdateProductService implements Command<UpdateProductCommand, Produ
     }
 
     @Override
+    @CachePut(value = "productCache", key = "#input.getId()")
     public ResponseEntity<ProductDTO> execute(UpdateProductCommand input) {
         Optional<Product> result = productRepository.findById(input.getId());
 
