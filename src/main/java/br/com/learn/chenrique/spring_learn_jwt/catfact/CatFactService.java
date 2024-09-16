@@ -2,7 +2,6 @@ package br.com.learn.chenrique.spring_learn_jwt.catfact;
 
 import java.net.URI;
 
-import org.springframework.boot.actuate.autoconfigure.observation.ObservationProperties.Http;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
